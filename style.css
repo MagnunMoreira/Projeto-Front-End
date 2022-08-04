@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    background-color: blue;
+}
+
+header {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+
+nav.nav {
+    display: flex;
+    list-style: none;
+
+}
+
+nav.nav ul {
+    list-style: none;
+}
+
+nav.nav a{
+    text-decoration: none;
+}
