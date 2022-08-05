@@ -3,14 +3,20 @@
 * {
     margin: 0 auto;
     padding: 0;
-    background-color: blue;
+    
 }
 
 header {
     display: flex;
+    height: 100px;
     align-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
+    border-style: groove;
+}
+
+nav.nav a:hover {
+    color: rgb(255, 42, 0);
 }
 
 
@@ -26,4 +32,82 @@ nav.nav ul {
 
 nav.nav a{
     text-decoration: none;
+    margin: 20px;
+    justify-content: center;
 }
+
+div.pesquisar  {
+    display: flex;
+     
+}
+
+
+div.lupa-carrinho a:last-of-type{
+   margin: 20px;
+   
+}
+
+div.button-sign-in a {
+    text-decoration: none;
+    padding: 10px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 42, 0);
+    color: white;
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+div.button-main-1 a{
+    text-decoration: none;
+    padding: 10px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 42, 0);
+    color: white;
+    
+}
+
+article{
+    display: flex;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    align-content: space-between;
+}
+
+section.pizza-1 a {
+    text-decoration: none;
+    padding: 10px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 42, 0);
+    color: white;
+}
+
+section.pizza-2 a {
+    text-decoration: none;
+    padding: 10px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 42, 0);
+    color: white;
+}
+
+
+section.pizza-3 a {
+    text-decoration: none;
+    padding: 10px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 42, 0);
+    color: white;
+}
+
+
+
