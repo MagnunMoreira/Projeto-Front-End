@@ -2,11 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2? família=Fira+Sans:wght@300&display=swap');
 
+@media (max-width: 376px) {
+    footer#pizza {
+        flex-wrap: wrap;
+    }
+}
+
 * {
     margin: 0 auto;
     padding: 0;
-    
+    width: auto;
 }
+
 
 header {
     display: flex;
