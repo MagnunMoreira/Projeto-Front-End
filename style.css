@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2? família=Fira+Sans:wght@300&display=swap');
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -8,11 +10,13 @@
 
 header {
     display: flex;
+    position: fixed;
     height: 100px;
+    width: 100%;
     align-content: space-between;
-    align-items: center;
     background-color: #FFFFFF;
-    border-style: groove;
+    align-items: center;
+   
 }
 
 nav.nav a:hover {
@@ -24,6 +28,18 @@ nav.nav {
     display: flex;
     list-style: none;
 
+   
+
+
+}
+nav.nav a {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
 }
 
 nav.nav ul {
@@ -48,13 +64,14 @@ div.lupa-carrinho a:last-of-type{
 }
 
 div.button-sign-in a {
+    font-family: 'Fira Sans', sans-serif;
     text-decoration: none;
     padding: 10px;
     width: 30px;
     border-radius: 20px;
     background-color: rgb(255, 42, 0);
-    color: white;
-    
+    color: #FFFFFF;
+
 }
 
 main {
@@ -71,42 +88,206 @@ div.button-main-1 a{
     
 }
 
-article{
+article h3{
+    
+    font-family: 'Fira Sans', sans-serif;
     display: flex;
+    margin-top: 76px;
+    margin-bottom: 76px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
     text-align: center;
+    justify-content: center;
+    border-radius: nullpx;
+    font-size: 36px;
+    color: #333333;
+
+
 }
 
+
+
+footer#pizza section a {
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 42, 0);
+    color: white;
+    
+}
+
+
+
+
+div#main-esquerda {
+
+    display: inline;
+    line-height: 50px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+   
+
+    
+}
+
+section.p1 h1 {
+
+    font-weight: 100;
+    color: #333333;  
+    height: 51px;
+    width: 450px;
+    font-size: 4.5em;
+    margin-bottom: 20px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+section.p2 {
+    
+    height: 51px;
+    width: 450px;
+    font-size: 46px;
+    font-weight: 300;
+    font-family:'Fira Sans', sans-serif; 
+    margin-bottom: 20px;
+
+
+   
+}
+
+section.p3 h3 {
+    display: inline;
+    font-weight: 100;
+    color: #333333;
+    height: 51px;
+    width: 450px;
+    font-family:'Fira Sans', sans-serif; 
+    font-weight: 300px;
+    font-size: 36px;
+    margin-left: 150px;
+    
+}
+
+div#main-direira img {
+    margin-right: 110px;
+    margin-top: 100px;
+}
+
+div.button-main-1 {
+    height: 51px;
+    width: 574px;
+    font-family:'Fira Sans', sans-serif; 
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-top: 20px;
+    margin-left: 150px;
+   
+}
+
+div.button-main-1 a:last-of-type{
+    margin: 50px;
+
+}
 footer {
+
+    width: 100%;
+    height: 500px;    
     display: flex;
-    align-content: space-between;
-}
-
-section.pizza-1 a {
-    text-decoration: none;
-    padding: 10px;
-    width: 30px;
-    border-radius: 20px;
-    background-color: rgb(255, 42, 0);
-    color: white;
-}
-
-section.pizza-2 a {
-    text-decoration: none;
-    padding: 10px;
-    width: 30px;
-    border-radius: 20px;
-    background-color: rgb(255, 42, 0);
-    color: white;
+    justify-content: center;
+    align-items: center;
+   
+   
+    
 }
 
 
-section.pizza-3 a {
-    text-decoration: none;
-    padding: 10px;
-    width: 30px;
-    border-radius: 20px;
-    background-color: rgb(255, 42, 0);
-    color: white;
+footer section h4 {
+    margin-top: 30px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    
+
 }
 
+footer section h5 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    color: #333333;
+
+
+}
+
+footer section p {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    
+
+}
+
+footer section div {
+    margin-top: 20px;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    
+    
+
+}
+
+footer#pizza {
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+
+
+section.pizza-1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    height: 486px;
+    width: 290px;
+    border-radius: 30px;   
+    border: 0.8px solid #BDBDBD;
+
+}
+
+
+
+
+section.pizza-2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    height: 486px;
+    width: 290px;
+    border-radius: 30px;
+    border: 0.8px solid #BDBDBD;
+
+}
+section.pizza-3 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    height: 486px;
+    width: 290px;
+    border-radius: 30px;   
+    border: 0.8px solid #BDBDBD;
+
+}
 
