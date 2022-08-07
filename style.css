@@ -2,11 +2,79 @@
 
 @import url('https://fonts.googleapis.com/css2? família=Fira+Sans:wght@300&display=swap');
 
-@media (max-width: 376px) {
-    footer#pizza {
-        flex-wrap: wrap;
+
+@media (max-width: 995px) {
+    footer#pizza   {
+       
+        margin-left: 400px;
+    
+    }
+    footer#pizza > section {
+        
+        width: 100%;
+        
     }
 }
+
+
+@media (max-width: 995px) {
+    footer#pizza  > section > img   {
+       
+       margin-left: 90px;
+    
+    }
+    
+}
+
+
+@media (max-width: 995px) {
+     div#main-esquerda {
+        display: flex;
+        flex-direction: row;
+        margin-top: 800px;
+        margin-left: 400px;
+      
+      
+     
+       
+    
+    }
+   
+}
+
+
+@media (max-width: 995px) {
+    div#main-direira {
+     
+     display: flex;
+    margin-bottom: 400px;
+     flex-direction: row;
+     margin-right: 5000px;
+   
+   }
+  
+}
+
+
+
+
+
+@media (max-width: 995px) {
+    article.article > h3 {
+        display: flex;
+        margin-left: 390px;
+        width: 100%;
+        
+        
+    
+    
+      
+    }
+}
+
+
+
+
 
 * {
     margin: 0 auto;
@@ -257,13 +325,12 @@ footer section div {
 
 }
 
-footer#pizza {
-    text-align: center;
+footer#pizza { 
     flex-wrap: wrap;
     gap: 60px;
-
+   
 }
-
+ 
 
 
 section.pizza-1 {
@@ -297,4 +364,3 @@ section.pizza-3 {
     border: 0.8px solid #BDBDBD;
 
 }
-
