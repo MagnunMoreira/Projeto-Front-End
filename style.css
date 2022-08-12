@@ -3,105 +3,33 @@
 @import url('https://fonts.googleapis.com/css2? família=Fira+Sans:wght@300&display=swap');
 
 
-@media (max-width: 995px) {
-    footer#pizza   {
-       
-        margin-left: 400px;
-    
-    }
-    footer#pizza > section {
-        
-        width: 100%;
-        
-    }
-}
 
-
-@media (max-width: 995px) {
-    footer#pizza  > section > img   {
-       
-       margin-left: 90px;
-       
-    }
-    
-}
-
-
-@media (max-width: 995px) {
-     main {
-        flex-wrap: wrap;
-       width: 100%;
-        background-color: aqua;
-     
-    }
-   
-}
-
-
-@media (max-width: 995px) {
-    div#main-direira {
-    margin-top: 50px;
-     background-color: blueviolet;
-     width: 100%;
-     margin-left: 300px;
-     
-   }
-  
-}
-@media (max-width: 995px) {
-    div#main-esquerda {
-    margin-top: 200px;
-     background-color:aqua;
-     margin-left: 400px;
-     width: 100%;
-     
-     
-   }
-   main > div.button-main-1    {
-    margin-left:100px ;
-    display: flex;
-    margin-left: 400px;
-    width: 100%;
-    background-color: #000;
-  }
-}
-
-
-
-
-
-@media (max-width: 995px) {
-    article.article > h3 {
-        display: flex;
-        margin-left: 390px;
-        width: 100%;
-        
-        
-    
-    
-      
-    }
-}
 
 
 
 
 
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     
+    
 }
+div.logo{
+    width: 171.38px;
+    height: 55.4px;
 
+}
 
 header {
     display: flex;
     position: fixed;
     height: 100px;
-    width: 100%;
-    align-content: space-between;
+    width: 100%; 
     background-color: #FFFFFF;
+    align-content: space-between;
     align-items: center;
+    
    
 }
 
@@ -113,6 +41,7 @@ nav.nav a:hover {
 nav.nav {
     display: flex;
     list-style: none;
+    
 
    
 
@@ -135,18 +64,30 @@ nav.nav ul {
 nav.nav a{
     text-decoration: none;
     margin: 20px;
-    justify-content: center;
+    
 }
+
+
 
 div.pesquisar  {
     display: flex;
+    
      
 }
 
 
-div.lupa-carrinho a:last-of-type{
-   margin: 20px;
+div.lupa-carrinho img:last-of-type{
+    margin-right: 40px;
+  margin-left: 10px;
    
+   
+}
+
+
+
+div.lupa-carrinho img{
+    width: 25px;
+    
 }
 
 div.button-sign-in a {
@@ -157,12 +98,21 @@ div.button-sign-in a {
     border-radius: 20px;
     background-color: rgb(255, 42, 0);
     color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    
 
+}
+div.button-sign-in{
+   margin-top: 7px;
 }
 
 main {
     display: flex;
     align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
 div.button-main-1 a{
     text-decoration: none;
@@ -209,15 +159,13 @@ footer#pizza section a {
 
 div#main-esquerda {
 
-    display: inline;
-    line-height: 50px;
+   
+
+  line-height: 50px;
     align-items: center;
     height: 100%;
     width: 100%;
-    
-   
-
-    
+     
 }
 
 section.p1 h1 {
@@ -228,6 +176,7 @@ section.p1 h1 {
     width: 450px;
     font-size: 4.5em;
     margin-bottom: 20px;
+    margin-left: 180px;
     font-family: 'Fira Sans', sans-serif;
 
 }
@@ -240,6 +189,7 @@ section.p2 {
     font-weight: 300;
     font-family:'Fira Sans', sans-serif; 
     margin-bottom: 20px;
+    margin-left: 180px;
 
 
    
@@ -254,7 +204,7 @@ section.p3 h3 {
     font-family:'Fira Sans', sans-serif; 
     font-weight: 300px;
     font-size: 36px;
-    margin-left: 150px;
+    margin-left: 180px;
     
 }
 
@@ -272,7 +222,7 @@ div.button-main-1 {
     line-height: 29px;
     letter-spacing: 0em;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 180px;
    
 }
 
