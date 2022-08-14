@@ -1,16 +1,11 @@
 @charset "utf-8";
-
-@import url('https://fonts.googleapis.com/css2? família=Fira+Sans:wght@300&display=swap');
-
-
-
-
+@import url ('https://fonts.googleapis.com/css2? família=Fira+Sans:wght@100&display=swap');
 
 
 
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     
     
@@ -23,98 +18,112 @@ header {
     height: 100px;
     width: 100%; 
     background-color: #FFFFFF;
-    align-content: space-between;
-    align-items: center;
     box-shadow: 0px 929px 372px rgba(0, 0, 0, 0.01), 0px 523px 314px rgba(0, 0, 0, 0.05), 0px 232px 232px rgba(0, 0, 0, 0.09), 0px 58px 128px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+   
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    
    
 }
 
 div.logo{
     width: 171.38px;
     height: 55.4px;
+    padding-left: 100px;
 
 }
 
-nav.nav a:hover {
+nav a:hover {
     color: rgb(255, 42, 0);
 }
 
 
-nav.nav {
-    display: flex;
-    list-style: none;
+header nav {
     
-
-   
-
-
+    width: 43px;
+    height: 19px;
+    
+    
 }
-nav.nav a {
+
+header nav  a {
     font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
     font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
+    font-weight: 400;
+    line-height: 16px;
     color: #333333;
-}
-
-nav.nav ul {
-    list-style: none;
-}
-
-nav.nav a{
     text-decoration: none;
-    margin: 20px;
+    
+}
+
+header nav ul {
+    display: flex;
+    
+}
+
+header nav ul li{
+    list-style: none;
+    padding-right: 36px;
+    
+}
+
+header nav ul li:last-of-type {
+    
+    padding-right: 0;
     
 }
 
 
 /* menu de pesquisa e carrinho junto ao sign in */
-div.pesquisar  {
+
+div.pesquisar{
     display: flex;
-    
+    align-items: center;
+   
+}
+
+div.pesquisar > a.button-menu {
+    font-family: 'fira sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    padding: 10px 24px 10px 24px;
+    background: #f44a25;
+    border-radius: 25px;
      
 }
-
-
-div.lupa-carrinho img:last-of-type{
-    margin-right: 40px;
-  margin-left: 10px;
-   
+div.pesquisar a img{
+    width: 24px;
+    height: 24px;
    
 }
 
-
-
-div.lupa-carrinho img{
-    width: 25px;
-    
-}
-
-div.button-sign-in a {
-    font-family: 'Fira Sans', sans-serif;
-    text-decoration: none;
-    padding: 10px;
-    width: 30px;
-    border-radius: 20px;
-    background-color: rgb(255, 42, 0);
-    color: #FFFFFF;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
+div.pesquisar a{
+    margin-right: 24px;
     
 
 }
-div.button-sign-in{
-   margin-top: 7px;
+
+div.pesquisar a:last-of-type{
+    margin-right: 100px;
+    
+
 }
+
+
 /*segundo containner bloco da esquerda*/
 main {
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+        
 }
 
 div#main-esquerda {
@@ -197,9 +206,13 @@ section.p3 h3 {
 
 /* containner 2 direito com a imagem da pizza */
 
-div#main-direira img {
-    margin-right: 110px;
-    margin-top: 100px;
+div#main-direira  img {
+    margin-right: 79px;
+    margin-top: 178px;
+    height: 548px;
+    width: 659px;
+
+
 }
 
 /*button de order online*/
