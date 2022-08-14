@@ -15,12 +15,8 @@
     
     
 }
-div.logo{
-    width: 171.38px;
-    height: 55.4px;
 
-}
-
+/* inicio do cabeçalho */
 header {
     display: flex;
     position: fixed;
@@ -29,8 +25,14 @@ header {
     background-color: #FFFFFF;
     align-content: space-between;
     align-items: center;
-    
+    box-shadow: 0px 929px 372px rgba(0, 0, 0, 0.01), 0px 523px 314px rgba(0, 0, 0, 0.05), 0px 232px 232px rgba(0, 0, 0, 0.09), 0px 58px 128px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
    
+}
+
+div.logo{
+    width: 171.38px;
+    height: 55.4px;
+
 }
 
 nav.nav a:hover {
@@ -68,7 +70,7 @@ nav.nav a{
 }
 
 
-
+/* menu de pesquisa e carrinho junto ao sign in */
 div.pesquisar  {
     display: flex;
     
@@ -107,13 +109,22 @@ div.button-sign-in a {
 div.button-sign-in{
    margin-top: 7px;
 }
-
+/*segundo containner bloco da esquerda*/
 main {
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
 }
+
+div#main-esquerda {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+       
+}
+
 div.button-main-1 a{
     text-decoration: none;
     padding: 10px;
@@ -142,32 +153,7 @@ article h3{
 
 }
 
-
-
-footer#pizza section a {
-    font-family: 'Fira Sans', sans-serif;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 20px;
-    background-color: rgb(255, 42, 0);
-    color: white;
-    
-}
-
-
-
-
-div#main-esquerda {
-
-   
-
-  line-height: 50px;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-     
-}
-
+/*paragrafos do containner  2 bloco esquerdo*/
 section.p1 h1 {
 
     font-weight: 100;
@@ -208,11 +194,15 @@ section.p3 h3 {
     
 }
 
+
+/* containner 2 direito com a imagem da pizza */
+
 div#main-direira img {
     margin-right: 110px;
     margin-top: 100px;
 }
 
+/*button de order online*/
 div.button-main-1 {
     height: 51px;
     width: 574px;
@@ -230,6 +220,9 @@ div.button-main-1 a:last-of-type{
     margin: 50px;
 
 }
+
+/*Seção de compras o footer é o containner pai*/
+
 footer {
 
     width: 100%;
@@ -238,7 +231,16 @@ footer {
     justify-content: center;
     align-items: center;
    
-   
+}
+
+
+footer#pizza section a {
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 42, 0);
+    color: white;
     
 }
 
@@ -282,8 +284,6 @@ footer section div {
     line-height: 32px;
     text-align: center;
     
-    
-
 }
 
 footer#pizza { 
@@ -292,8 +292,7 @@ footer#pizza {
    
 }
  
-
-
+       /*cardapio*/
 section.pizza-1 {
     font-family: 'Fira Sans', sans-serif;
     margin: 0;
@@ -304,9 +303,6 @@ section.pizza-1 {
 
 }
 
-
-
-
 section.pizza-2 {
     font-family: 'Fira Sans', sans-serif;
     margin: 0;
@@ -316,6 +312,7 @@ section.pizza-2 {
     border: 0.8px solid #BDBDBD;
 
 }
+
 section.pizza-3 {
     font-family: 'Fira Sans', sans-serif;
     margin: 0;
