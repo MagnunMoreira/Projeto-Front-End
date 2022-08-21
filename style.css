@@ -25,6 +25,16 @@
         margin-left: 125vw;
         
     }
+    div.pesquisar a img{
+        width: 40px;
+        height: 40px;
+       
+    }
+    div.pesquisar a{
+        margin-right: 26px;
+        
+    }
+    
    
 }
 
@@ -188,9 +198,11 @@ div.pesquisar > a.button-menu {
     border-radius: 25px;
      
 }
+
+
 div.pesquisar a img{
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
    
 }
 
